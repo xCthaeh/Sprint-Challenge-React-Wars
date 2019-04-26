@@ -4,10 +4,10 @@ export const PageButton = props => {
   return (
     <div className="buttons">
       <button className="previous" onClick={props.button}>
-      ↤ Previous
+      Previous
       </button>
       <button className="next" onClick={props.button}>
-        Next ↣
+        Next 
       </button>
     </div>
   );
