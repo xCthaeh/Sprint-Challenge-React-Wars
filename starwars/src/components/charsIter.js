@@ -1,7 +1,7 @@
-import React from "react";
-import { TheCharacterName } from "./Character.js/index.js";
-import { AttributesKeys } from "./Attr.js/index.js";
-import { AttributesValues } from "./Attr.js/index.js";
+import React from 'react';
+import {TheCharacterName} from './Character.js';
+import {AttributesKeys} from './Attr.js';
+import {AttributesValues} from './Attr.js';
 
 export const SingleCharacter = props => {
   return (
@@ -31,7 +31,7 @@ export const SingleCharacterAttr = props => {
             });
           }
           if (character[1].length === 0) {
-            values.push("n/a");
+            values.push('n/a');
           }
           keys.push(character[0]);
           values.push(character[1]);
