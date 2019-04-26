@@ -1,7 +1,7 @@
 .App {
   text-align: center;
-  display:flex;
-  align-items:center;
+  display: flex;
+  align-items: center;
   flex-direction: column;
   width: 100%;
 }
@@ -9,23 +9,21 @@
   color: black;
   text-shadow: 5px 5px 5px white;
   font-weight: bold;
-  font-size:8em;
-  font-family:'Faster One', cursive;
+  font-size: 8em;
+  font-family: "Faster One", cursive;
 }
 /* write your parent styles in here for your App.js */
-
 
 .charContainer {
   background-color: rgba(203, 230, 82, 0.5);
   border-radius: 10px;
-  
 }
 
 .characters {
   list-style: none;
   font-size: 2rem;
   border-bottom: 1px solid black;
-  font-family: 'Aldrich', sans-serif;
+  font-family: "Aldrich", sans-serif;
   font-weight: bold;
 }
 
@@ -50,7 +48,7 @@
   display: flex;
   flex-wrap: wrap;
   font-weight: bold;
-  font-family: 'Aldrich', sans-serif;
+  font-family: "Aldrich", sans-serif;
 }
 
 .keys {
@@ -78,12 +76,12 @@
 .previous {
   background-color: rgba(203, 230, 82, 0.5);
   font-size: 2rem;
-  font-weight:bold;
+  font-weight: bold;
   border-radius: 10px;
   border: solid 2px black;
   margin: 10px;
   padding: 10px;
-  font-family: 'Aldrich', sans-serif;
+  font-family: "Aldrich", sans-serif;
 }
 
 .previous:hover {
@@ -105,7 +103,7 @@
   border: solid 2px black;
   margin: 10px;
   padding: 10px;
-  font-family: 'Aldrich', sans-serif;
+  font-family: "Aldrich", sans-serif;
 }
 
 .next:hover {
