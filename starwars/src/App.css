@@ -34,6 +34,12 @@
   background-color: yellow;
 }
 
+.characters:active {
+  background-color: yellow;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 .container {
   background-color: rgba(203, 230, 82, 0.5);
   border-radius: 10px;
