@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
+import { SingleCharacter } from "./components/charsIter.js";
+import { SingleCharacterAttr } from "./components/charsIter.js";
+import { PageButton } from "./components/Buttons.js";
 
 class App extends Component {
   constructor() {
